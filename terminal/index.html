@@ -1,0 +1,43 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romain Graux's terminal</title>
+    <link rel="stylesheet/less" type="text/css" href="styles/main.less"/>
+    <link rel="icon" type="image/ico" href="data/favicon.ico"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+    <script type="text/javascript" src="src/shell.js"></script>
+    <script type="text/javascript" src="src/cli.js"></script>
+    <script type="text/javascript" src="src/utils.js"></script>
+</head>
+
+<body>
+<div class="terminal-window">
+    <header>
+        <div class="button red"></div>
+        <div class="button yellow"></div>
+        <div class="button green"></div>
+        <div class="header title">🏠 root - bash</div>
+    </header>
+    <div id="terminal">
+        <p><span class="green">\[._.]/</span> - you're in romaingraux's cli! type
+            `help` to get started.</p>
+        <p class="hidden">
+                <span class="prompt">
+            <span class="root">root</span>
+                <span class="tick">❯</span>
+                </span>
+            <span contenteditable="true" class="input"></span>
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Site code can be found <a class="site-code" target="_blank"
+                                 href="https://github.com/RomainGrx/romaingrx.github.io">here</a></p>
+</div>
+
+</body>
+
