@@ -1,13 +1,13 @@
 @font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
 
 body {
-  background-color: #8F3A8466;
+  background-color: #121012;
 }
 
 .terminal-window {
   text-align: left;
-  width: 600px;
-  height: 360px;
+  width: 35%;
+  height: 40%;
   border-radius: 10px;
   margin: auto;
   position: relative;
@@ -23,9 +23,9 @@ body {
   
   &.fullscreen {
     z-index: 9999;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    width: 95%;
+    height: 80%;
+    top: 2.5%;
     left: 0;
   }
 
@@ -79,10 +79,11 @@ body {
     color: white;
     font-family: @font-family;
     font-size: 11pt;
-    background: #30353a;
+    background: #C57FC5D9;
     padding: 10px;
     box-sizing: border-box;
     position: absolute;
+    border-radius: 0 0 8px 8px;
     width: 100%;
     top: 30px;
     bottom: 0;
@@ -143,6 +144,7 @@ body {
 
 .footer {
   position: absolute;
+  display: inline;
   bottom: 40px;
   left: 0;
   right: 0;
